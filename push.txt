@@ -1,0 +1,15 @@
+To push your changes to GitHub, you need to have a remote repository set up on GitHub. Here are the steps:
+
+Create a new repository on GitHub. You can do this on the GitHub website by clicking the '+' button in the top right corner and selecting 'New repository'. Name your repository and click 'Create repository'.
+
+In your terminal, navigate to your local project directory using the cd command.
+
+Initialize the local directory as a Git repository.
+Add the URL for the remote repository where your local repository will be pushed.
+Replace remote_repository_URL with the URL of your newly created GitHub repository. It should look something like https://github.com/username/repo.git.
+
+Verify the new remote URL.
+Stage the file for commit.
+Commit the changes.
+Push the changes in your local repository to GitHub.
+Replace yourfile.py with the name of your file and "Your commit message" with a meaningful message describing the changes you made. Replace master with the name of your branch if it is different.
