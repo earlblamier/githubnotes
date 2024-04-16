@@ -4,14 +4,25 @@ Create a new repository on GitHub. You can do this on the GitHub website by clic
 
 In your terminal, navigate to your local project directory using the cd command.
 
-cd path/to/your/repository
+  cd path/to/your/repository
 
 Initialize the local directory as a Git repository.
+  git init
+
 Add the URL for the remote repository where your local repository will be pushed.
+  git remote add origin remote_repository_URL
+
 Replace remote_repository_URL with the URL of your newly created GitHub repository. It should look something like https://github.com/username/repo.git.
 
 Verify the new remote URL.
+  git remote -v
+
 Stage the file for commit.
+  git add yourfile.py
+
 Commit the changes.
+  git commit -m "Your commit message"
 Push the changes in your local repository to GitHub.
+  git push origin master
+
 Replace yourfile.py with the name of your file and "Your commit message" with a meaningful message describing the changes you made. Replace master with the name of your branch if it is different.
