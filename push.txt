@@ -4,6 +4,8 @@ Create a new repository on GitHub. You can do this on the GitHub website by clic
 
 In your terminal, navigate to your local project directory using the cd command.
 
+cd path/to/your/repository
+
 Initialize the local directory as a Git repository.
 Add the URL for the remote repository where your local repository will be pushed.
 Replace remote_repository_URL with the URL of your newly created GitHub repository. It should look something like https://github.com/username/repo.git.
